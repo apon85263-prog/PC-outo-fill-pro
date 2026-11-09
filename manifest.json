@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "PCC Passport Autofill Helper",
+  "version": "1.0.0",
+  "description": "Extract text from a passport PDF locally and manually fill matching form fields.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "PCC Passport Autofill"
+  }
+}

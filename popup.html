@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PCC Passport Autofill</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="wrap">
+    <h1>PCC Passport Autofill</h1>
+    <p class="sub">Local passport text helper</p>
+    <input id="file" type="file" accept=".pdf,application/pdf">
+    <button id="extract" type="button">Extract passport info</button>
+    <div id="status" role="status" aria-live="polite"></div>
+    <section id="results" aria-label="Extracted passport information"></section>
+    <button id="fill" type="button">Fill current form</button>
+    <p class="note">Review every value and the form before submitting. Passport files and extracted data are not uploaded or saved by this extension. Scanned PDFs and image OCR are not supported.</p>
+  </main>
+  <script src="pdf-lite.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+PCC Passport Autofill Helper
+
+1. Download or clone this repository and extract it if needed.
+2. In Chrome, open chrome://extensions
+3. Enable Developer mode.
+4. Click Load unpacked.
+5. Select the extracted project folder.
+6. Open the relevant form and open the extension popup.
+7. Select a text-based passport PDF and click Extract passport info.
+8. Review all extracted values, then click Fill current form.
+9. Review the form again; the extension will not submit it.
+
+Passport files and extracted values are processed locally. Never upload passport files, passwords, cookies, or other personal information to GitHub.
+
+Scanned PDFs and image OCR are not supported. Extraction and field matching may be incomplete; verify everything.
